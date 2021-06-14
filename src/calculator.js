@@ -7,7 +7,7 @@ class Calculator{
         }else{
 
             // numbers = '1,2,2,5,25';
-            let arr = numbers.split(',');
+            let arr = numbers.split('\n');
             
             let sum = 0;
             for (let i = 0; i < parseInt(arr.length); i++) {

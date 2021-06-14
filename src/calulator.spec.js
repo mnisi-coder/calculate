@@ -23,13 +23,13 @@ describe("string calculator", function () {
             {
                 numberString += ''+eletment+'';
             }else{
-                numberString += ','+eletment+'';
+                numberString += '\n'+eletment+'';
             }
             
 
         }
 
-        let arr = numberString.split(',');
+        let arr = numberString.split('\n');
 
 
     
